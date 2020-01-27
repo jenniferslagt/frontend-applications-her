@@ -1,0 +1,10 @@
+  {{#each @rentals as |rental|}}
+  <article class="listing">
+   <img src={{rental.picture}} alt="">
+   <br>
+    <h3>{{this.rental}}</h3>
+    <div class="detail owner">
+      <span>Plaatsnaam: {{this.rental.placeName}}</span>
+    </div>
+  </article>
+{{/each}}

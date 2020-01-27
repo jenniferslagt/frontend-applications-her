@@ -1,0 +1,36 @@
+{{#each this.model as |plaatsUnit|}}
+    {{!-- loads component for eacht instrument, source: https://guides.emberjs.com/release/components/ --}}
+    <plaats @plaats={{plaatsUnit}} />
+
+    
+{{/each}}
+<div class="plaatsen_page">
+<ul>
+<h2>Filter op plaatsen:</h2>
+<br>
+<li>
+{{#link-to "apo_kayan_plateau-list" class="plaats_optie"}}
+        Apo Kayan (plateau) 
+      {{/link-to}}
+</li>
+<br>
+<li>
+{{#link-to "mendalam_rivier-list" class="plaats_optie"}}
+        Mendalam (rivier)
+      {{/link-to}}
+</li>
+<br>
+<li>
+{{#link-to "mahakam_rivier-list" class="plaats_optie"}}
+        Mahakam (rivier)
+      {{/link-to}}
+</li>
+<br>
+<li>
+{{#link-to "zuid_papua-list" class="plaats_optie"}}
+        Zuid-Papua
+      {{/link-to}}
+</li>
+
+</ul>
+</div>

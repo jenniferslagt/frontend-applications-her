@@ -1,0 +1,13 @@
+<h2 class="titel_plaats">Filter op plaatsen > Zuid-Papua</h2>
+<br>
+<!-------Zoeken door de resultaten------->
+<form id="vinden">
+    <input type="search" name="search" placeholder="Wát voor een tatoeage zoek jij?" />
+</form>
+
+<Rental @rentals={{this.model}}/>
+
+{{#each this.model as |rental|}}  <!-- er worden bepaalde items gerendert uit rental (value) -->
+
+<Rental @rental={{rental}}/>
+  {{/each}}

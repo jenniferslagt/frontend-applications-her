@@ -1,0 +1,25 @@
+<div class="welcome_page">
+  <div class="right tomster"></div>
+  <h3>Op zoek naar inspiratie voor een unieke tatoeage?</h3>
+  <p>Open je blik op tatoeages en bekijk foto's van getatoeëerde mensen van verschillende culturen! </p>
+     <div id=div1></div>
+        <p><b> 
+          <br>
+        {{#link-to "plaatsen" class="plaats_optie"}}
+        Filter hier op verschillende plaatsen.
+      {{/link-to}}
+    </b></p>
+       
+</div>
+<br>
+
+<section id="filter">
+<p><i>40 resultaten</i></p>
+</section>
+
+<Rental @rentals={{this.model}}/>
+
+{{#each this.model as |rental|}}  <!-- er worden bepaalde items gerendert uit rental (value) -->
+
+<Rental @rental={{rental}}/>
+  {{/each}}

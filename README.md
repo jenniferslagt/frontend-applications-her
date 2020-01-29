@@ -18,7 +18,13 @@ In Ember werken de routes alsvolgt: bij elke pagina is een JavaScript bestand ge
 De bestanden heten dan allebei "zuid_papua-list". 
 Het JavaScript bestand komt in het mapjes "routes". Hierin importeer ik de data en filter ik de data, zodat er een selectief gedeelte wordt getoond. In het hbs bestand heb ik een titel toegevoegd. Daarnaast wordt er gebruik gemaakt van de `{{each}}` helper.
 
+De `{{each}}` helper zorgt ervoor dat de gebruiker door een lijst van items kan loopen. Hierbij wordt telkens dezelfde section voor een item herhaalt.
+
+
 ## Bronnen
 Ember guide - Routing - https://guides.emberjs.com/v3.14.0/routing/
+Ember guide - Looping through lists - https://guides.emberjs.com/release/components/looping-through-lists/
 
 
+## Credits
+Credits naar Nick Meijer, voor het kort uitleggen van routes.

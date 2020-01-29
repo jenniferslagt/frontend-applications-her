@@ -4,6 +4,8 @@ Tropenmuseum - zoek naar unieke tatoeages
 
 ## Verbeteringen
 Ik heb de volgende punten verbeterd:
+* Onnodige bestanden verwijderd.
+* Onnodige codes weggehaald.
 * De meeste bestanden hebben een naam gekregen die bij mijn concept past.
 * Er worden minder bestanden gedeployed in Github.
 * Er is een filter toegevoegd m.b.v routes.

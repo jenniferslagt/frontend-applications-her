@@ -16,7 +16,7 @@ In Ember werken de routes alsvolgt: bij elke pagina is een JavaScript bestand ge
 `ember generate route zuid_papua-list`
 
 De bestanden heten dan allebei "zuid_papua-list". 
-Het JavaScript bestand komt in het mapjes "routes". Hierin importeer ik de data en filter ik de data, zodat er een selectief gedeelte wordt getoond. In het hbs 
+Het JavaScript bestand komt in het mapjes "routes". Hierin importeer ik de data en filter ik de data, zodat er een selectief gedeelte wordt getoond. In het hbs bestand heb ik een titel toegevoegd. Daarnaast wordt er gebruik gemaakt van de `{{each}}` helper.
 
 ## Bronnen
 Ember guide - Routing - https://guides.emberjs.com/v3.14.0/routing/

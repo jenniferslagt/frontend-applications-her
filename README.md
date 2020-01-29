@@ -23,7 +23,8 @@ De `{{each}}` helper zorgt ervoor dat de gebruiker door een lijst van items kan 
 
 ## Bronnen
 Ember guide - Routing - https://guides.emberjs.com/v3.14.0/routing/ <br>
-Ember guide - Looping through lists - https://guides.emberjs.com/release/components/looping-through-lists/
+Ember guide - Looping through lists - https://guides.emberjs.com/release/components/looping-through-lists/ <br>
+Ember guide - Specifying a Route's Model - https://guides.emberjs.com/release/routing/specifying-a-routes-model/
 
 
 ## Credits
